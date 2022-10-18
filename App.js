@@ -1,21 +1,14 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
-import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
-import {NavigationContainer} from '@react-navigation/native';
-import First from './compoents2/First';
-import Sec from './compoents2/Sec';
-const Rahil = createMaterialTopTabNavigator();
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+
 const App = () => {
   return (
-    <NavigationContainer>
-      <Rahil.Navigator>
-        <Rahil.Screen name="home" component={First} />
-        <Rahil.Screen name="hom" component={Sec} />
-      </Rahil.Navigator>
-    </NavigationContainer>
-  );
-};
+    <View>
+      <Text>App</Text>
+    </View>
+  )
+}
 
-export default App;
+export default App
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({})
